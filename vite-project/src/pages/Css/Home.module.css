@@ -2,7 +2,7 @@
 .banner{
     padding: 0;
     height: 554px;
-    background-image: url(public/imagens/topo.jpg);
+    background-image: url(css/pages/public/imagens/topo.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;

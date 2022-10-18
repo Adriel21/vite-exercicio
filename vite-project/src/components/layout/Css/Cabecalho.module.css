@@ -25,6 +25,7 @@ header h1:hover {
     color: white;
     background-color: black;
     padding: 5px;
+    cursor: pointer;
 }
 
 nav ul{

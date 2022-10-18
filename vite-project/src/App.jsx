@@ -5,6 +5,8 @@ import {BrowserRouter, Route, Switch} from "react-router-dom";
 import './App.css';
 import Cabecalho from './components/layout/Cabecalho';
 import Home from './pages/Home';
+import Rodape from './components/layout/Rodape';
+import Produtos from "./pages/Produtos";
 
 const App = () => {
 
@@ -17,7 +19,12 @@ const App = () => {
           <Route exact path="/">
               <Home />
           </Route>
+          <Route exact path="/produtos">
+            <Produtos />
+          </Route>
         </Switch>
+
+        <Rodape />
       </BrowserRouter>      
     </>
   );

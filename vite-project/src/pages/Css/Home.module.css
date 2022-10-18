@@ -1,0 +1,172 @@
+/* Início destaque */
+.banner{
+    padding: 0;
+    height: 554px;
+    background-image: url(public/imagens/topo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100VW;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+/* .overlay{
+    background-color: rgba(0, 0, 0, 0.445);
+    height: 160px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+} */
+
+.banner div{
+    background-color: white;
+    position: absolute;
+    padding: 0 5px 0 5px;
+    text-align: center;
+}
+
+@media screen and (min-width: 780px){
+    .banner div{
+      
+       
+        width: 60%;
+        padding: 15px 0 15px 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       
+        
+    }
+}
+
+
+.banner div h1{
+    font-family: 'Poppins';
+    font-size: clamp(50px, 5vw, 64px);
+    color: #DF1A9C;
+    margin: 0;
+    height: 80px;
+}
+
+.banner .titulo {
+    padding-bottom: 35px;
+}
+
+.banner .texto{
+    margin-right: 50px;
+}
+
+.texto p:last-child{
+    color: #3B90F0;
+    font-size: clamp(25px, 2vw, 32px);
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.texto p:first-child{
+    color: #3B90F0;
+    font-size: 24px;
+    font-size: clamp(18px, 2vw, 24px);
+    font-family: 'Poppins';
+    font-weight: 500;
+    
+
+}
+/* Fim do destaque */
+
+/* artticle */
+
+article{
+    background-color: #A40099;
+    margin: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+article p {
+    font-size: clamp(15px, 2vw, 19px);
+    font-family: 'Poppins';
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+/* fim do article */
+
+/* início do main */
+
+main h2{
+    text-align: center;
+}
+
+main p{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 20;
+    text-align: left;
+    font-family: 'Open Sans';
+    margin-bottom: 15px;
+}
+
+@media screen and (min-width: 780px){
+    main section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 778px){
+    main section {
+        text-align: center;
+    }
+
+    main section img{
+        margin-bottom: 20px;
+    }
+}
+
+/* fim da main */
+
+/* início do vídeo */
+.video{
+    background-image: url(../../../public/imagens/fundo-madeira.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0 40px 0;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.video h2{
+    color: white;
+    font-family: 'Poppins';
+}
+
+.video iframe{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Fim do vídeo */

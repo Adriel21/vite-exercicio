@@ -1,0 +1,29 @@
+/* footer */
+footer{
+    text-align: center;
+    color: white;
+    background-color: #4f4f4f;
+    padding: 20px 0 20px 0;
+}
+
+footer, div, h3, p{
+    margin: 0;
+}
+
+footer h3, footer p{
+    font-family: 'Open Sans';
+}
+
+.wpp{
+    cursor: pointer;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+}
+
+.wpp:hover{
+    opacity: 0.8;
+}
+/* fim do footer */
+
+
